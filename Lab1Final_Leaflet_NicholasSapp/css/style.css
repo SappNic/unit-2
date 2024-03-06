@@ -1,0 +1,68 @@
+#map {    
+    height: 400px;    
+    width: 80%;
+    display: inline-block;
+    position: relative; 
+}
+
+#panel {    
+    width: 25%; 
+    padding: 20px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    line-height: 42px;
+}
+
+.leaflet-popup-content p {
+    margin: 0.2em 0;
+}
+
+.map-title {
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+    box-shadow: 0 0 5px #888;
+    margin-top: 10px;
+}
+
+.map-title h2 {
+    margin: 0;
+    font-size: 16px;
+    text-align: center;
+}
+
+.step-button {
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 0 5px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.range-slider {
+    width: calc(100% - 60px);
+    margin: 0 auto;
+    display: block;
+}
+
+#population-slider, #crime-slider {
+    text-align: center;
+    padding: 10px 0;
+}
+
+.data-source-textbox {
+    position: absolute;
+    right: 20px;
+    bottom: 50px; 
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #888;
+    max-width: 250px; 
+    font-size: 12px; 
+    z-index: 1000; 
+}
